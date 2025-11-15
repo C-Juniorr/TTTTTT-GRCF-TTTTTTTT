@@ -62,7 +62,7 @@ def cct_extrair(vlr):
     
     INPUT = filedialog.askopenfilename(
     title="Selecione o arquivo da CCT",
-    filetypes=[("Arquivos CSV", "*.csv"), ("Todos os arquivos", "*.*")]
+    filetypes=[("Arquivos CSV", "*.csv"),("Arquivos TXT", "*.txt"), ("Todos os arquivos", "*.*")]
     )
 
     if not INPUT:
@@ -116,7 +116,7 @@ def cct_extrair(vlr):
 def remuneracao_Extrair(vlr):
     INPUT = filedialog.askopenfilename(
     title="Selecione o arquivo da REM",
-    filetypes=[("Arquivos CSV", "*.csv"), ("Todos os arquivos", "*.*")]
+    filetypes=[("Arquivos CSV", "*.csv"),("Arquivos TXT", "*.txt"), ("Todos os arquivos", "*.*")]
     )
 
     if not INPUT:
